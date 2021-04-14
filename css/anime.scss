@@ -1,0 +1,36 @@
+/* キャッチが横から登場 */
+.Headline {
+  animation: SlideIn 1.6s infinite;
+}
+
+@keyframes SlideIn {
+  0% {
+    opacity: 0; /*初期状態では透明に*/
+    transform: translateX(64px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+//全体で使用している黒ボタン/
+.simple_square_btn1 {
+  width: 190px;
+  height: 44px;
+  // margin: 0.8em;
+  margin-top: 10px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+  color: #fff;
+  background: #31b2d5;
+  border-radius: 30px;
+}
+.simple_square_btn1:hover {
+  opacity: 0.8;
+  cursor: pointer;
+  text-decoration: none;
+  border-radius: 30px;
+}

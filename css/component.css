@@ -1,0 +1,239 @@
+@charset "UTF-8";
+/* キャッチが横から登場 */
+.Headline {
+  -webkit-animation: SlideIn 1.6s infinite;
+          animation: SlideIn 1.6s infinite;
+}
+
+@-webkit-keyframes SlideIn {
+  0% {
+    opacity: 0;
+    /*初期状態では透明に*/
+    -webkit-transform: translateX(64px);
+            transform: translateX(64px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+
+@keyframes SlideIn {
+  0% {
+    opacity: 0;
+    /*初期状態では透明に*/
+    -webkit-transform: translateX(64px);
+            transform: translateX(64px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+
+.simple_square_btn1 {
+  width: 190px;
+  height: 44px;
+  margin-top: 10px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+  color: #fff;
+  background: #31b2d5;
+  border-radius: 30px;
+}
+
+.simple_square_btn1:hover {
+  opacity: 0.8;
+  cursor: pointer;
+  text-decoration: none;
+  border-radius: 30px;
+}
+
+body {
+  width: 100%;
+  text-align: center;
+}
+
+main {
+  margin: 0 auto;
+  max-width: 600px;
+  text-align: left;
+}
+
+.button-box {
+  width: 100%;
+  text-align: center;
+}
+
+.button-box bottom {
+  margin: 0 auto;
+}
+
+.button-box .top-logo {
+  margin-top: 8px;
+  width: 370px;
+}
+
+.button-box .top-img {
+  width: 380px;
+}
+
+.pw-text {
+  margin-top: -10px;
+}
+
+.thanks-img {
+  width: 200px;
+  height: 300px;
+}
+
+body {
+  font-family: "Noto Sans JP", 游ゴシック, "Yu Gothic", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "Noto Sans Japanese", Meiryo, sans-serif;
+  padding-left: 20px;
+  padding-right: 20px;
+  -webkit-appearance: none;
+  -webkit-text-size-adjust: 100%;
+}
+
+h2 {
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: bold;
+  letter-spacing: 0.01em;
+}
+
+h1 {
+  font-size: 19px;
+  font-weight: bold;
+  letter-spacing: 0.02em;
+}
+
+.header {
+  width: 100%;
+  height: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.header .home-logo {
+  width: 243px;
+  bottom: 10px;
+}
+
+.header .logout-bt {
+  width: 65px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.all-logo {
+  width: 100%;
+}
+
+.pw-text {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.form-box {
+  max-width: 600px;
+  /* なぜか横幅と下2行を入れないとならず */
+  margin: 0 auto;
+  text-align: left;
+  width: 80%;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.form-box .form-style {
+  width: 100%;
+  height: 40px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #6e6e6e;
+  border-radius: 3px;
+}
+
+.form-box .form-style-textbox40 {
+  width: 100%;
+  height: 70px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #6e6e6e;
+  border-radius: 3px;
+}
+
+.form-box .form-style-textbox230 {
+  width: 100%;
+  height: 100px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #6e6e6e;
+  border-radius: 3px;
+}
+
+.form-box .form-syosai {
+  width: 100%;
+  height: 80px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #6e6e6e;
+  border-radius: 3px;
+}
+
+.center {
+  text-align: center;
+}
+
+/* モーダルCSS */
+.modalArea {
+  display: none;
+  position: fixed;
+  z-index: 10;
+  /*サイトによってここの数値は調整 */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.modalBg {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(30, 30, 30, 0.9);
+}
+
+.modalWrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 70%;
+  max-width: 500px;
+  padding: 10px 30px;
+  background-color: #fff;
+}
+
+.closeModal {
+  position: absolute;
+  top: 0.5rem;
+  right: 1rem;
+  cursor: pointer;
+}
+/*# sourceMappingURL=component.css.map */

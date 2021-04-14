@@ -1,0 +1,72 @@
+@charset "UTF-8";
+.gray-box {
+  width: 100%;
+  height: 193px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.gray-box p {
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 30px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+ul li img {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+p {
+  font-size: 14px;
+}
+
+button {
+  margin: 0 auto;
+}
+
+.button-up {
+  height: 40px;
+  margin: 5px;
+}
+
+.hozon-bt {
+  width: 190px;
+}
+
+.checkbox-center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  max-width: 600px;
+  /* なぜか横幅と下2行を入れないとならず */
+  margin: 0 auto;
+}
+/*# sourceMappingURL=ogp-new.css.map */

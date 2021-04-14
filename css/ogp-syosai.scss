@@ -1,0 +1,99 @@
+.ogp-box {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  img {
+    width: 385px;
+  }
+  .remote-box {
+    font-size: 12px;
+    display: flex;
+    .tab {
+      border: 1px solid #c4c4c4;
+      border-radius: 2px;
+      font-size: 12px;
+      width: 70px;
+
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      p {
+        margin: 0;
+        padding: 0;
+        text-align: center;
+      }
+    }
+  }
+
+  div {
+    width: 370px;
+    .project-text1 {
+      margin-top: 12px;
+      font-weight: bold;
+      font-size: 20px;
+      line-height: 28px;
+    }
+    .project-text2 {
+      margin-top: 12px;
+      font-size: 14px;
+      font-weight: bold;
+      line-height: 22px;
+    }
+  }
+}
+
+.mini-text {
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 22px;
+}
+
+h1 {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.bt-kuwashiku {
+  width: 152px;
+}
+
+.sdgs17-box {
+  width: 370px;
+  padding: 20px;
+  border: 1px solid #c4c4c4;
+  border-radius: 10px;
+  margin: auto;
+
+  p {
+    font-size: 14px;
+    font-weight: bold;
+    text-align: left;
+  }
+  .sdgs-text {
+    font-size: 14px;
+    font-weight: bold;
+    text-align: right;
+  }
+  .ul-box {
+    ul {
+      list-style-type: none;
+      margin: auto;
+      width: 60%;
+      li {
+        width: 330px;
+        display: flex;
+        align-items: center;
+        line-height: 30px;
+        img {
+          width: 20px;
+          height: 20px;
+          margin-right: 10px;
+        }
+      }
+    }
+  }
+}

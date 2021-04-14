@@ -1,0 +1,16 @@
+body {
+  /* なぜかボディに横幅と下2行を入れないとならず */
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+h1 {
+  font-size: 30px;
+  color: #00a6d9;
+
+  max-width: 600px;
+  /* なぜか横幅と下2行を入れないとならず */
+  margin: 0 auto;
+  text-align: left;
+}

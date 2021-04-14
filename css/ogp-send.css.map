@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,QAAQ,CAAC;EACP,KAAK,EAAE,IAAI;CACZ;;AAED,AAAA,CAAC,CAAC;EACA,UAAU,EAAE,MAAM;EAClB,SAAS,EAAE,IAAI;EACf,WAAW,EAAE,IAAI;EACjB,WAAW,EAAE,IAAI;CAClB",
+    "sources": [
+        "ogp-send.scss"
+    ],
+    "names": [],
+    "file": "ogp-send.css"
+}

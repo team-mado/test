@@ -1,0 +1,58 @@
+.gray-box {
+  width: 100%;
+  height: 193px;
+
+  // 天地中央揃え
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  p {
+    // 子を左右中央揃え
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 30px;
+  }
+}
+
+ul {
+  list-style-type: none;
+
+  li {
+    display: flex;
+    align-items: center;
+    img {
+      width: 20px;
+      height: 20px;
+      margin-right: 10px;
+    }
+  }
+}
+
+p {
+  font-size: 14px;
+}
+
+button {
+  margin: 0 auto;
+}
+
+//updateのボタンスタイル
+.button-up {
+  height: 40px;
+  margin: 5px;
+}
+
+.hozon-bt {
+  width: 190px;
+}
+
+.checkbox-center {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  max-width: 600px;
+  /* なぜか横幅と下2行を入れないとならず */
+  margin: 0 auto;
+}

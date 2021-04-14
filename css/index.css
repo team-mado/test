@@ -1,0 +1,38 @@
+body {
+  width: 100%;
+  text-align: center;
+}
+
+main {
+  margin: 0 auto;
+  max-width: 600px;
+  text-align: left;
+}
+
+.button-box {
+  width: 100%;
+  text-align: center;
+}
+
+.button-box bottom {
+  margin: 0 auto;
+}
+
+.button-box .top-logo {
+  margin-top: 8px;
+  width: 370px;
+}
+
+.button-box .top-img {
+  width: 380px;
+}
+
+.pw-text {
+  margin-top: -10px;
+}
+
+.thanks-img {
+  width: 200px;
+  height: 300px;
+}
+/*# sourceMappingURL=index.css.map */

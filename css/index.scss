@@ -1,0 +1,36 @@
+body {
+  width: 100%;
+  text-align: center;
+}
+
+main {
+  margin: 0 auto;
+  max-width: 600px;
+  text-align: left;
+}
+
+.button-box {
+  width: 100%;
+  text-align: center;
+  bottom {
+    margin: 0 auto;
+  }
+  .top-logo {
+    margin-top: 8px;
+    width: 370px;
+  }
+  .top-img {
+    width: 380px;
+  }
+}
+.pw-text {
+  margin-top: -10px;
+}
+
+.thanks-img {
+  width: 200px;
+  height: 300px;
+}
+
+//   @media only screen and (min-width: 600px) {
+// }

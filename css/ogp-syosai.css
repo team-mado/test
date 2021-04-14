@@ -1,0 +1,126 @@
+.ogp-box {
+  margin-top: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.ogp-box img {
+  width: 385px;
+}
+
+.ogp-box .remote-box {
+  font-size: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.ogp-box .remote-box .tab {
+  border: 1px solid #c4c4c4;
+  border-radius: 2px;
+  font-size: 12px;
+  width: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.ogp-box .remote-box .tab p {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.ogp-box div {
+  width: 370px;
+}
+
+.ogp-box div .project-text1 {
+  margin-top: 12px;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.ogp-box div .project-text2 {
+  margin-top: 12px;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 22px;
+}
+
+.mini-text {
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 22px;
+}
+
+h1 {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.bt-kuwashiku {
+  width: 152px;
+}
+
+.sdgs17-box {
+  width: 370px;
+  padding: 20px;
+  border: 1px solid #c4c4c4;
+  border-radius: 10px;
+  margin: auto;
+}
+
+.sdgs17-box p {
+  font-size: 14px;
+  font-weight: bold;
+  text-align: left;
+}
+
+.sdgs17-box .sdgs-text {
+  font-size: 14px;
+  font-weight: bold;
+  text-align: right;
+}
+
+.sdgs17-box .ul-box ul {
+  list-style-type: none;
+  margin: auto;
+  width: 60%;
+}
+
+.sdgs17-box .ul-box ul li {
+  width: 330px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  line-height: 30px;
+}
+
+.sdgs17-box .ul-box ul li img {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+/*# sourceMappingURL=ogp-syosai.css.map */
